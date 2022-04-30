@@ -20,51 +20,139 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <title>Index</title>
   </head>
   <body>
-    <div class="masthead">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="decorbymush.png" alt="" width="50" height="50" />
-          </a>
+    <div class="main-container">
+      <!-------------------------------------------------------LANDING SECTION ------------------------------->
+      <div class="masthead flex">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/decorbymush.png" alt="" width="50" height="50" />
+            </a>
+  
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Magazine</a>
+                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+  
+        <!-- masthead -->
+        <header class="flex">
+          <div class="container-fluid flex">
+            <div class="masthead-heading hero-img text-uppercase flex">
+              <img  class="masthead-img" src="masthead.svg" alt="" />
+            </div>
+            <p class="scrolldown">scroll down</p>
+          </div>
+        </header>
+      </div> <!--End of Landing Div-->
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <div class="navbar-nav ms-auto py-4 py-lg-0">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Magazine</a>
-              <a class="nav-link" href="#">Projects</a>
-              <a class="nav-link" href="#">Contact Us</a>
+      <!-------------------------------------------------------PROJECT SECTION ------------------------------->
+      <div class="project-section flex">
+        <div class="project-title flex">
+
+          <div class="line-holder">
+            <div class="line"></div>
+          </div>
+
+          <div class="section-title">
+            <p class="section-text">Projects</p>
+          </div>
+
+          
+
+          <div class="line-holder">
+            <div class="line"></div>
+          </div>
+
+        </div>
+
+        <div class="project-body flex">
+          <div class="project-img image-one all-project-img-bg flex">
+            <div class="project-top-row flex">
+              <p class="img-number"> 01 </p>
+              <a class="arrow" href=""> &rarr;</a>
+            </div>
+
+            <div class="project-bottom-row flex">
+              <h3>Project Title</h3>
+              <p>Lorem ipsum dit solor amet</p>
+            </div>
+
+            <div class="large-screen-image-number flex">
+              <h3>01</h3>
+            </div>
+          </div>
+
+          <div class="project-img image-two all-project-img-bg flex">
+            <div class="project-top-row flex">
+              <p class="img-number"> 02 </p>
+              <a class="arrow" href=""> &rarr;</a>
+            </div>
+
+            <div class="project-bottom-row flex">
+              <h3>Project Title</h3>
+              <!-- <h3 class="large-screen-image-number">01</h3> -->
+              <p>Lorem ipsum dit solor amet</p>
+            </div>
+
+            <div class="large-screen-image-number flex">
+              <h3>02</h3>
+            </div>
+          </div>
+
+          <div class="project-img image-three all-project-img-bg flex">
+            <div class="project-top-row flex">
+              <p class="img-number"> 03 </p>
+              <a class="arrow" href=""> &rarr;</a>
+            </div>
+
+            <div class="project-bottom-row flex">
+              <h3>Project Title</h3>
+              <p>Lorem ipsum dit solor amet</p>
+            </div>
+
+            <div class="large-screen-image-number flex">
+              <h3>03</h3>
+            </div>
+          </div>
+
+          <div class="img-switch-holder image-four all-project-img-bg flex">
+            <div class="switch-holder-top-row flex">
+              <p class="img-number"> 04 </p>
+              <a class="arrow" href=""> &rarr;</a>
+            </div>
+
+            <div class="switch-holder-bottom-row flex">
+              <h3>Project Title</h3>
+              <p>Lorem ipsum dit solor amet</p>
             </div>
           </div>
         </div>
-      </nav>
-
-      <!-- masthead -->
-      <header class="">
-        <div class="container-fluid">
-          <div class="masthead-heading hero-img text-uppercase">
-            <img src="masthead.svg" alt="" />
-          </div>
-          <p class="scrolldown">scroll down</p>
-        </div>
-      </header>
-    </div>
+      </div>
+    </div> <!--End of project section div-->
+   
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

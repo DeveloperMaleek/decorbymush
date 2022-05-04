@@ -23,7 +23,7 @@ body {
 .main-container {
     width: 100%;
     min-height: 100vh;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

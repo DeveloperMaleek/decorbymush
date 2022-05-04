@@ -622,7 +622,7 @@
 
 
 /* // Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) { 
+ @media (min-width: 576px) { 
     .navbar {
         background-color: transparent;
         padding-top: 24px;
@@ -630,15 +630,121 @@
         padding-right: 24px;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        height: fit-content;
-        
+        height: fit-content; 
     }
 
-    .hero-img {
-        width: 150;
-        height: 150;
+    .masthead-img {
+        width: 35%;
     }
-} */
+
+
+    /**************************************PROJECT SECTION*******************************************************/
+    .project-title {
+        align-items: center;
+        width: 100%;
+        margin: 2.5% 0;
+    }
+
+    .section-title {
+        width: 20%;
+    }
+
+    .section-text {
+        font-size: 2.5rem;
+    }
+
+    .line-holder {
+        width: 5%;
+    }
+
+    .line {
+        margin: 0% 0;
+    }
+
+    .project-body {
+        /* border: 1px solid blue; */
+        width: 100%;
+        min-height: 90vh;
+        flex-direction: row;
+    }
+
+    .project-img {
+        width: 16%;
+        height: 100vh;
+        justify-content: flex-end;
+    }
+
+    .img-switch-holder {
+        width: 52%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .img-number {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    .project-top-row {
+        display: none;
+    }
+
+    .project-bottom-row {
+        display: none;
+    }
+
+    .switch-holder-top-row {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5%;
+    }
+
+    .arrow {
+        font-size: 3rem;
+    }
+
+    .switch-holder-bottom-row {
+        flex-direction: column;
+        background:linear-gradient(rgba(255,255,255,0.0), black);
+        padding: 10% 5%;
+    }
+    
+    .switch-holder-bottom-row  h3{
+        font-size: 3rem;
+        font-weight: 800;
+        color: #1DBACF;
+    }
+
+    .large-screen-image-number {
+        display: flex;
+        flex-direction: column;
+        background:linear-gradient(rgba(255,255,255,0.0), black);
+        padding: 10% 5%;
+    }
+
+    .large-screen-image-number h3{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    .image-one:before { /* Overlay */
+        height: 100vh;
+    }
+
+    .image-two:before { /* Overlay */
+        height: 100vh;
+    }
+
+    .image-three:before { /* Overlay */
+        height: 100vh;
+    }
+
+    .image-four:before { /* Overlay */
+        height: 100vh;
+    }
+} 
 
 
 

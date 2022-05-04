@@ -11,23 +11,13 @@ body {
     background-color: #000000;
     font-size: 24px;
     font-family: Poiret one;
-    /* margin-top: 48px;
-    margin-left: 72px;
-    margin-right: 72px; */
 }
 
 .flex {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-
 }
-
-
-
-
-
-
 
 
 .main-container {
@@ -58,15 +48,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: grid;
-    /* grid-template-rows: auto; */
     text-align: center;
     width: 100%;
     min-height: 100vh;
+    flex-direction: column;
+    /* display: grid; */
+    /* grid-template-rows: auto; */
     /* height: 100vh;
     max-height: 100%; */
     /* border: 1px solid red; */
-    flex-direction: column;
+    
 }
 
 header {
@@ -91,7 +82,7 @@ header {
 
 .masthead-img {
     /* border: 1px solid green; */
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -307,4 +298,41 @@ header {
   
 .image-four * {
     position: relative; /* Makes elements display above overlay. */
+}
+
+
+/**************************************ABOUT SECTION*******************************************************/
+.about-section {
+    border: 1px solid white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/Phoenix-cottage/openfloor.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #000000; */
+}
+
+.about-section:before { /* Overlay */
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* border: 2px solid yellow; */
+}
+  
+.about-section * {
+    position: relative; /* Makes elements display above overlay. */
+}
+
+.about-section-text {
+    color: white;
+    flex-direction: column;
+    justify-content: center;
 }
